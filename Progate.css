@@ -1,0 +1,286 @@
+body{
+    margin: 0px;
+    margin-top: -20px;
+}
+#header{
+    background-image: url("work-bg.jpeg");
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 30px;
+    opacity: 0.85;
+}
+#header-ul{
+    list-style: none;
+    margin-left: 200px;
+}
+#header-ul li{
+    display: inline-block;
+    padding-right: 100px;
+    font-size: 30px;
+}
+#header-ul li a{
+    text-decoration: none;
+    color: black;
+}
+#header-ul li a:hover{
+    text-decoration: underline;
+    color: rgb(71, 69, 69);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#fieldset-div{
+    padding: 15px;
+    text-align: center;
+}
+#legend{
+    text-align: center;
+    margin-left: 40px;
+}
+#legend:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+section{
+    width: 100%;
+}
+section:nth-child(2n){
+    background-color: lightgrey;
+}
+#header-span{
+    font-size: 80px;
+    color: black;
+    padding-left: 610px;
+}
+#header-div{
+    margin-top: 110px;
+}
+#header-div ul li{
+    list-style: none;
+    display: inline; 
+}
+#icon-span ul{
+    margin-left: 550px;
+    margin-top: 30px;
+}
+.icon{
+    padding-left: 40px;
+}
+#icon-span ul li i:hover{
+    box-shadow: 4px 4px 5px 5px rgb(203, 232, 248);
+    border-radius: 2.5rem;
+    transition: 0.3s ease;
+}
+#icon-span ul li i{
+padding: 7px;
+}
+#female-photo{
+    border-radius: 100%;
+    margin-left: 700px;
+    z-index: 1;
+    margin-top: 60px;
+}
+#about-div{
+    margin-top: 110px;
+    padding: 20px;
+    font-size: 20px;
+}
+#I{
+    font-weight: bold;
+    font-size: 40px;
+    font-size: cursive;
+}
+.word-hobbies{
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    color: rgba(32, 32, 151, 0.822);
+}
+.word-hobbies:hover {
+    color: rgb(142, 97, 248);
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#hobbies-div{
+    display: flex;
+    padding: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -30px;  
+}
+.img-hobbies{
+    height: 400px;
+    width: 400px;
+}
+.hobbies-title{
+    border: 2px ridge grey;
+    background-image: url("hello2.jpg");  
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-size: cover;
+}
+#img2{
+    background-image: url("pink-bg.jpg");
+}
+.hobbies-class{
+    padding-left: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+#img3{
+    background-image: url("purple-bg.jpg");
+    color: white;
+}
+#img4{
+    background-image: url("orange-bg.jpg");
+}
+#img5{
+    background-image: url("brown-bg.jpg");
+    color: white;
+}
+#div-out{
+    padding: 20px;
+}
+.Education-div{
+    border: 2px solid black;
+    height: 150px;
+    width: 500px;
+    padding-bottom: 10%;;
+   position: relative;
+   margin: 5px;
+   left: 10%;
+   padding-top: 20px;
+   background-image: url("blur11.jpg");
+   background-size: cover;
+   opacity: 0.90;
+}
+.Education-div:nth-child(2n){
+ left: 53%;   
+}
+.divider{
+    position: absolute;
+    width: 0%;
+    height: 850px;
+    left: 48%;
+    border: 3px dashed grey;
+    margin-top: -900px;
+}
+.plane{
+    position: sticky;
+    top: 25%;
+    padding-left: 50px;
+    transform: rotate(132deg);
+    font-size: 40px;
+}
+#Contact{
+    background: linear-gradient(to top right, rgb(198, 234, 247), rgb(82, 82, 250));
+    height: 600px;
+    width: 100%;
+}
+
+#div-content-contact{
+    display: block;
+    position: relative;
+    padding-top: 20px;
+    margin-left: 320px;
+}
+
+.form{
+    border: none;
+    border-bottom: 2px solid rgb(66, 66, 66);
+    background: none;
+    font-size: 20px;
+    padding-bottom: 10px;
+    width: 450px;
+
+}
+#contact-submit{
+    background: none;
+    border: 2px solid black;
+    color: black;
+    font-size: 22px;
+    padding: 10px;
+    margin-left: 150px;
+}
+#contact-submit:hover{
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 22px;
+}
+#contact-h4{
+    font-size: 25px;
+    color: black;
+    padding-left: 80px;
+    margin-top: -10px;  
+}
+#contact-p{
+    width: 400px;
+    padding-left: 80px;
+    color:  rgb(27, 25, 25);
+    font-size: 18px;
+}
+#address-h4{
+    font-size: 25px;
+    color: black;
+    padding-left: 80px; 
+    margin-top: -1px;
+    margin-bottom: 4px;
+}
+#address-div{
+    padding-left: 80px;
+}
+.abcde{
+    height: 50px;
+    width: 50px;
+    margin-bottom: -12px;
+}
+#contact-icon-div{
+    margin-left: 250px;
+    margin-top: 20px;
+}
+#a-tag{
+    display: flex;
+    /* justify-content: center; */
+    padding-bottom: 20px;
+    margin-left: 50px;
+}
+#Projects li{
+    padding-bottom: 30px;
+}
+#Projects li a{
+    color: black;
+    font-size: 40px;
+    text-decoration: none;
+    cursor: pointer;
+   
+}
+#progate-span{
+    font-size: 45px;
+}
+#hello{
+    margin-right: 50px;
+}
+
+.project-days:hover{
+    color: rgb(204, 9, 42);
+    transition: 0.5s ease;
+    box-shadow: 2px 1px 5px 1px rgb(204, 9, 42);
+}
+#contact-word:hover{
+    color: rgb(226, 52, 81);
+    font-weight: normal;
+}
+
+
+
+
+
+
